@@ -1,4 +1,4 @@
-module github.com/gobuffalo/buffalo
+module github.com/dmuriel/buffalo
 
 go 1.16
 
