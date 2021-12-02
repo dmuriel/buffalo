@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/dmuriel/buffalo/render"
 	"github.com/gobuffalo/httptest"
 	"github.com/gobuffalo/logger"
 	"github.com/stretchr/testify/require"

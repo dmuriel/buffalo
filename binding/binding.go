@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gobuffalo/buffalo/binding/decoders"
+	"github.com/dmuriel/buffalo/binding/decoders"
 	"github.com/gobuffalo/nulls"
 	"github.com/monoculum/formam"
 )

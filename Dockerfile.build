@@ -8,7 +8,7 @@ RUN apt-get update \
     && apt-get install -y -q build-essential sqlite3 libsqlite3-dev postgresql libpq-dev vim
 
 # Installing Node 12
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash 
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash
 RUN apt-get update && apt-get install nodejs
 
 # Installing Postgres
@@ -30,7 +30,7 @@ RUN npm install -g --no-progress yarn \
 RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b $(go env GOPATH)/bin v1.24.0
 # Installing buffalo binary
 RUN go install github.com/gobuffalo/cli/cmd/buffalo@latest
-RUN go get github.com/gobuffalo/buffalo-pop/v2
+RUN go get github.com/dmuriel/buffalo-pop/v2
 
 RUN mkdir /src
 WORKDIR /src

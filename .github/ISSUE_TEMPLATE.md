@@ -2,9 +2,9 @@ Hello! Thank you so much for your interest in Buffalo. The fact you care enough 
 
 ## Prerequisites
 
-* Check the documentation resources [gobuffalo.io](https://gobuffalo.io) and [godoc.org](https://godoc.org/github.com/gobuffalo/buffalo) to see if there are docs, examples, etc. that might solve your problem quicker.
+* Check the documentation resources [gobuffalo.io](https://gobuffalo.io) and [godoc.org](https://godoc.org/github.com/dmuriel/buffalo) to see if there are docs, examples, etc. that might solve your problem quicker.
 * Make sure to provide as much information as possible (stack traces, error logs, code examples, screenshots...), so we can better help you.
-* Read the [contributing guidelines](https://github.com/gobuffalo/buffalo/blob/master/.github/CONTRIBUTING.md).
+* Read the [contributing guidelines](https://github.com/dmuriel/buffalo/blob/master/.github/CONTRIBUTING.md).
 * Support question are better asked in one of the following locations:
   * On [#buffalo](https://gobuffalo.io/docs/slack) Slack channel.
   * [Stack Overflow](https://stackoverflow.com/questions/tagged/buffalo)

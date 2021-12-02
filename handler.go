@@ -12,7 +12,7 @@ package buffalo
 	}
 
 	func (c Context) error {
-		return c.Redirect(http.StatusMovedPermanently, "http://github.com/gobuffalo/buffalo")
+		return c.Redirect(http.StatusMovedPermanently, "http://github.com/dmuriel/buffalo")
 	}
 
 	func (c Context) error {

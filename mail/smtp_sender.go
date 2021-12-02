@@ -5,7 +5,7 @@ import (
 	"io"
 	"strconv"
 
-	gomail "github.com/gobuffalo/buffalo/mail/internal/mail"
+	gomail "github.com/dmuriel/buffalo/mail/internal/mail"
 )
 
 //SMTPSender allows to send Emails by connecting to a SMTP server.

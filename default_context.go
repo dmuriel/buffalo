@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gobuffalo/buffalo/binding"
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/markbates/errx"
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/dmuriel/buffalo/binding"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/markbates/errx"
+	"github.com/dmuriel/buffalo/render"
 )
 
 // assert that DefaultContext is implementing Context
@@ -155,7 +155,7 @@ func (d *DefaultContext) Render(status int, rr render.Renderer) error {
 // is dependent on the "Content-Type" for the request. If the type
 // is "application/json" it will use "json.NewDecoder". If the type
 // is "application/xml" it will use "xml.NewDecoder". See the
-// github.com/gobuffalo/buffalo/binding package for more details.
+// github.com/dmuriel/buffalo/binding package for more details.
 func (d *DefaultContext) Bind(value interface{}) error {
 	return binding.Exec(d.Request(), value)
 }

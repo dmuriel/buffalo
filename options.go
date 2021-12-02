@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/dmuriel/buffalo/internal/defaults"
+	"github.com/dmuriel/buffalo/worker"
 	"github.com/fatih/color"
-	"github.com/gobuffalo/buffalo/internal/defaults"
-	"github.com/gobuffalo/buffalo/worker"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/logger"
 	"github.com/gobuffalo/pop/v5"
@@ -122,7 +122,7 @@ func optionsWithDefaults(opts Options) Options {
 
 		if len(opts.LogLevel) > 0 {
 			var err error
-			oncer.Deprecate(0, "github.com/gobuffalo/buffalo#Options.LogLevel", "Use github.com/gobuffalo/buffalo#Options.LogLvl instead.")
+			oncer.Deprecate(0, "github.com/dmuriel/buffalo#Options.LogLevel", "Use github.com/dmuriel/buffalo#Options.LogLvl instead.")
 			opts.LogLvl, err = logger.ParseLevel(opts.LogLevel)
 			if err != nil {
 				opts.LogLvl = logger.DebugLevel

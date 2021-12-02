@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/markbates/errx"
-	"github.com/gobuffalo/buffalo/plugins/plugdeps"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/markbates/errx"
+	"github.com/dmuriel/buffalo/plugins/plugdeps"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/meta"
 	"github.com/karrick/godirwalk"

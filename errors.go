@@ -10,9 +10,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gobuffalo/buffalo/internal/defaults"
-	"github.com/gobuffalo/buffalo/internal/httpx"
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/markbates/errx"
+	"github.com/dmuriel/buffalo/internal/defaults"
+	"github.com/dmuriel/buffalo/internal/httpx"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/markbates/errx"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/plush/v4"
 )

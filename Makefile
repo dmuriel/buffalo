@@ -24,7 +24,7 @@ test:
 	make tidy
 
 ci-deps:
-	$(GO_BIN) get github.com/gobuffalo/buffalo-pop
+	$(GO_BIN) get github.com/dmuriel/buffalo-pop
 	$(GO_BIN) get -tags ${TAGS} -t -v ./...
 	make tidy
 

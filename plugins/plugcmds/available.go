@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/gobuffalo/buffalo/plugins"
+	"github.com/dmuriel/buffalo/plugins"
 	"github.com/gobuffalo/events"
 	"github.com/spf13/cobra"
 )

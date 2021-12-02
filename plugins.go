@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gobuffalo/buffalo/plugins"
+	"github.com/dmuriel/buffalo/plugins"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/events"
 	"github.com/markbates/oncer"

@@ -7,7 +7,7 @@ import (
 
 	"bytes"
 
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/dmuriel/buffalo/render"
 )
 
 //Message represents an Email message

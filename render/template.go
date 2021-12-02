@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/gobuffalo/syncx"
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/markbates/errx"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/gobuffalo/syncx"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/markbates/errx"
 	"github.com/gobuffalo/packd"
 	"github.com/sirupsen/logrus"
 )

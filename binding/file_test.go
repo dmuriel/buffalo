@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/buffalo/binding"
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/dmuriel/buffalo"
+	"github.com/dmuriel/buffalo/binding"
+	"github.com/dmuriel/buffalo/render"
 	"github.com/stretchr/testify/require"
 )
 

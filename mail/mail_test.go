@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/dmuriel/buffalo"
+	"github.com/dmuriel/buffalo/render"
 	"github.com/gobuffalo/httptest"
 	"github.com/stretchr/testify/require"
 )

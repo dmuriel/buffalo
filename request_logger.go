@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dmuriel/buffalo/internal/httpx"
 	humanize "github.com/dustin/go-humanize"
-	"github.com/gobuffalo/buffalo/internal/httpx"
 )
 
 // RequestLogger can be be overridden to a user specified

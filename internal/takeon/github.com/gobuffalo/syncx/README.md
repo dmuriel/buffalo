@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/gobuffalo/buffalo/blob/master/logo.svg" width="360"></p>
+<p align="center"><img src="https://github.com/dmuriel/buffalo/blob/master/logo.svg" width="360"></p>
 
 <p align="center">
 <a href="https://godoc.org/github.com/gobuffalo/syncx"><img src="https://godoc.org/github.com/gobuffalo/syncx?status.svg" alt="GoDoc" /></a>

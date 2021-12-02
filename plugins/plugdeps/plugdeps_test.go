@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/markbates/errx"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/markbates/errx"
 	"github.com/gobuffalo/meta"
 	"github.com/stretchr/testify/require"
 )
 
 var heroku = Plugin{
 	Binary: "buffalo-heroku",
-	GoGet:  "github.com/gobuffalo/buffalo-heroku",
+	GoGet:  "github.com/dmuriel/buffalo-heroku",
 	Commands: []Command{
 		{Name: "deploy", Flags: []string{"-v"}},
 	},
@@ -64,7 +64,7 @@ const eToml = `[[plugin]]
 
 [[plugin]]
   binary = "buffalo-heroku"
-  go_get = "github.com/gobuffalo/buffalo-heroku"
+  go_get = "github.com/dmuriel/buffalo-heroku"
   tags = ["foo", "bar"]
 
   [[plugin.command]]
@@ -73,5 +73,5 @@ const eToml = `[[plugin]]
 
 [[plugin]]
   binary = "buffalo-pop"
-  go_get = "github.com/gobuffalo/buffalo-pop/v2"
+  go_get = "github.com/dmuriel/buffalo-pop/v2"
 `

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/dmuriel/buffalo/render"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/httptest"
 	"github.com/gobuffalo/packd"

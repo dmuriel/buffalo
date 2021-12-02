@@ -2,7 +2,7 @@ FROM golang:1.17-alpine
 
 EXPOSE 3000
 
-ENV GOPROXY=https://proxy.golang.org 
+ENV GOPROXY=https://proxy.golang.org
 
 RUN apk add --no-cache --upgrade apk-tools \
     && apk add --no-cache bash curl openssl git build-base nodejs npm sqlite sqlite-dev mysql-client vim postgresql libpq postgresql-contrib libc6-compat
@@ -18,7 +18,7 @@ RUN npm i -g --no-progress yarn \
 
 # Installing buffalo binary
 RUN go install github.com/gobuffalo/cli/cmd/buffalo@latest
-RUN go get github.com/gobuffalo/buffalo-pop/v2
+RUN go get github.com/dmuriel/buffalo-pop/v2
 
 RUN mkdir /src
 WORKDIR /src

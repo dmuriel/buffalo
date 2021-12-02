@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gobuffalo/buffalo/internal/httpx"
+	"github.com/dmuriel/buffalo/internal/httpx"
 )
 
 var (

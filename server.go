@@ -7,8 +7,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/gobuffalo/buffalo/internal/takeon/github.com/markbates/errx"
-	"github.com/gobuffalo/buffalo/servers"
+	"github.com/dmuriel/buffalo/internal/takeon/github.com/markbates/errx"
+	"github.com/dmuriel/buffalo/servers"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/packd"
 	"github.com/markbates/refresh/refresh/web"
